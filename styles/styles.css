@@ -20,13 +20,14 @@ body {
   background-color: #ffffff;
   width: 1200px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-  padding: 105px 90px;
+  padding: 30px 90px;
+  padding-left: 50px;
 }
 
 /* about styles */
 
 .about {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   /* background-color: tomato; */
 }
 .about_position {
@@ -44,7 +45,8 @@ body {
   font-size: 45px;
   line-height: 55px;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .about_discribtion {
@@ -271,4 +273,11 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 33px;
+}
+
+.pa {
+  padding-left: 10px;
+}
+.lin{
+ color: #a8a8a8;
 }
