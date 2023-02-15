@@ -212,7 +212,7 @@ body {
 .photo {
   width: 370px;
   margin-bottom: 20px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .contacts,
