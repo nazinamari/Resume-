@@ -33,7 +33,7 @@ body {
 .about_position {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 17px;
   color: #000000;
   margin-bottom: 20px;
@@ -42,7 +42,7 @@ body {
 .about_name {
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 55px;
   color: #000000;
   margin-bottom: 10px;
@@ -154,15 +154,15 @@ body {
 .period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #453535;
   margin-bottom: 10px;
 }
 .line {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   color: #000;
 }
@@ -173,7 +173,7 @@ body {
 .work_list_item {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
