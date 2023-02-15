@@ -236,7 +236,7 @@ body {
 }
 
 .contact_type {
-  color: #ffffff;
+  color: #fb6e3a;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -249,7 +249,8 @@ body {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  color: #8c949f;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .tech_skills_list,
