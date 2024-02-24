@@ -1,3 +1,5 @@
+@import '/styles.scss';
+
 body {
     font-family: "Montserrat", sans-serif;
     background-color: #e5e5e5;
@@ -27,11 +29,6 @@ body {
     padding-bottom: 150px;
 }
 
-/* about styles */
-.about {
-    /* margin-bottom: 40px; */
-    /* background-color: tomato; */
-}
 
 .about_position {
     font-style: normal;
@@ -131,17 +128,6 @@ body {
     color: #000000;
 }
 
-/* work styles */
-.work {
-    /* background-color: peru;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 40px; */
-    /* padding: 100px 40px 50px 20px;
-    padding: 50px;
-    padding: 50px 100px; */
-}
 
 .work_position {
     font-style: normal;

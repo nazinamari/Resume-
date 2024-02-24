@@ -1,4 +1,149 @@
 body {
+  text-align: center;
+  background-color: #282d32;
+  padding: 50px;
+}
+
+.container {
+  width: 500px;
+  height: 40px;
+  display: inline-block;
+  position: relative;
+}
+
+.fill {
+  z-index: 1;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 8px 0 0 8px;
+  width: calc(100% - 5px);
+  height: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+
+.volume-slider {
+  appearance: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  background: none;
+  width: 500px;
+  height: 40px;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+
+.volume-slider::-ms-track {
+  cursor: pointer;
+  color: #0000;
+  background: none;
+  border-color: #0000;
+  width: 500px;
+}
+
+.volume-slider:focus {
+  outline: none;
+}
+
+.volume-slider::-moz-focus-outer {
+  border: 0;
+}
+
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: #fff;
+  border: 3px solid #282d32;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -11px;
+}
+
+.volume-slider::-webkit-slider-runnable-track {
+  cursor: pointer;
+  background: #ff0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 500px;
+  height: 10px;
+}
+
+.volume-slider::-moz-range-thumb {
+  cursor: pointer;
+  background: #fff;
+  border: 3px solid #282d32;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.volume-slider::-moz-range-track {
+  box-sizing: border-box;
+  cursor: pointer;
+  background: #ff0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 500px;
+  height: 10px;
+}
+
+@media (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .fill {
+    display: none;
+  }
+}
+
+.volume-slider::-ms-thumb {
+  cursor: pointer;
+  box-sizing: border-box;
+  background: #fff;
+  border: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 2px;
+  box-shadow: 0 0 0 3px #282d32;
+}
+
+.volume-slider:focus::-ms-thumb {
+  border: 0;
+}
+
+.volume-slider::-ms-track {
+  cursor: pointer;
+  color: #0000;
+  box-sizing: border-box;
+  background: #ff0;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  width: 500px;
+  height: 10px;
+}
+
+.volume-slider::-ms-fill-lower {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+
+.volume-slider::-ms-fill-upper {
+  background: #ff0;
+}
+
+.volume-slider::-ms-tooltip {
+  display: none;
+}
+
+body {
   background-color: #e5e5e5;
   font-family: Montserrat, sans-serif;
 }
